@@ -1,0 +1,303 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #eee2dc;
+    font-family: 'B612', sans-serif;
+}
+.navbar-social{
+    height: 55px;
+}
+.nav-fixed{
+    background-color: #edc7b7;
+    font-weight: bold;
+}
+.navbar-brand{
+  font-family: 'Allura', cursive;
+}
+.socialicons{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.booking-open{
+    padding-top: 20px;
+    font: bolder;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+.booking-content{
+    padding-bottom: 20px;
+}
+.checked {
+    color: gold;
+}
+#card_{
+    margin: 30px auto;
+    /*width: 300px;
+    height: 300px;*/
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+#card_:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+#card_ .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+.price{
+    color: red;
+    font-weight: bolder;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    color: black;
+} /*
+.shadow { 
+    color: white; 
+    font: 52px;
+    text-shadow: 1px 1px #ac3b61, 
+                 2px 2px #ac3b61, 
+                 3px 3px #ac3b61;
+    background-color: #bab2b5;
+ }
+ .shadow:hover {
+    position: relative; 
+    top: -3px; 
+    left: -3px; 
+    text-shadow: 1px 1px #ac3b61, 
+                 2px 2px #ac3b61, 
+                 3px 3px #ac3b61, 
+                 4px 4px #ac3b61, 
+                 5px 5px #ac3b61, 
+                 6px 6px #ac3b61;
+ } */
+
+.block{
+    background-color: #123c69;
+    margin: auto;
+    padding: 30px;
+    color: #eceeef;
+}
+#textcarousel{
+    margin-top: 50px;
+  }
+#carousel-inner-text{
+    height: 250px;
+  }
+.carousel-caption{
+    color: black;
+    top: 50%;
+}
+.block2{
+    background-color: #123c69;
+    text-align: center;
+    padding-top: 30px;
+    height: 200px;
+    margin-bottom: 30px;
+    color: #eceeef;
+}
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview {
+	background-color: #123c69;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+
+.site-footer
+{
+  background-color: #ac3b61;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:whitesmoke;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:whitesmoke;
+} 
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:whitesmoke
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.card-header h3{
+  background-color: #123c69;
+  color: whitesmoke;
+}
+.card-body{
+  background-color: #eee2dc;
+}
+.card{
+  background-color: #eee2dc;
+}
+.headchange{
+  background-color: #edc7b7;
+  color: #ac3b61;
+  font-weight: bold;
+}
+.review2{
+  padding-top: 15px;
+} 
+.phchead{
+  background-color: #123c69;
+  color: #fff;
+  font-weight: bold;
+}
+.phcbody{
+  background-color: #fff;
+  color: #33353d;
+
+}
